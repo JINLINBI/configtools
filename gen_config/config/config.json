@@ -1,0 +1,8 @@
+{
+    "配置路径":"./config",
+    "lua输出路径":"./output/",
+    "go输出路径":"./gen_config/example/go/",
+    "多语言路径":"../assets/language/",
+    "cs代码输出路径":"./output",
+    "cs数据输出路径":"./output"
+}

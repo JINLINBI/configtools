@@ -1,0 +1,4 @@
+struct RoleData {
+    name string
+    lev uint16
+}

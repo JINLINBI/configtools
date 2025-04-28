@@ -1,0 +1,15 @@
+{
+	"win":
+	{
+		"资源工程目录":"../client/dev/",
+		"客户端工程目录":"../client/dev/"
+	},
+
+	"android":
+	{
+		"资源工程目录":"../client/dev_android/",
+		"客户端工程目录":"../client/dev_android/"
+	},
+
+	"unity":"D:/Unity/2019.4.15f1/Unity/Editor/Unity.exe"
+}

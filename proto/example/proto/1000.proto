@@ -1,0 +1,53 @@
+struct TestStruct {
+    test1 string
+    test2 uint16
+}
+
+//这个是注释
+enum TestEnum uint8 {
+    wait = 0
+    done = 1
+}
+
+proto 1010 {
+    in {
+        test1 string
+        test2 bool
+        test3 int8
+        test4 uint8
+        test5 int16
+        test6 uint16
+        test7 int32
+        test8 uint32
+        test9 float
+        test10 double
+
+        test11 list string
+        test12 list RoleData
+        test13 list {
+            test14 string
+            test15 int8
+        }
+
+        test16 dict uint8 string
+        test17 dict string TestStruct
+        test18 dict uint16 {
+            test19 string
+            test20 int8
+        }
+
+        test21 {
+            test22 string
+            test23 TestEnum
+            test24 {
+                test25 uint16
+                test26 int32
+            }
+        }
+    }
+
+    out {
+        flag uint8
+        msg string
+    }
+}

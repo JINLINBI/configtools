@@ -1,0 +1,5 @@
+{
+    "lua路径":"../client/lua/",
+    "data路径":"../client/data/",
+    "http路径":"../"
+}

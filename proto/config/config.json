@@ -1,0 +1,11 @@
+{
+    "协议路径":"../assets/proto",
+
+    "go输出路径":"../server/carp/example/proto",
+    "go包名":"routemsg",
+    "go字节处理类路径":"gitee.com/carp3010/carp/utils/byte",
+    "go字节处理类名":"byteutils",
+
+    "CS输出路径":"../carp_server/Carp.Server.Example.Hotfix/Proto",
+    "客户端输出路径":"../client/data/proto"
+}
