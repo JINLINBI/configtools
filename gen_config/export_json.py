@@ -179,4 +179,4 @@ def GetDictKey(configValue):
     if configValue.type == gen_config.define.FieldType.int:
         return configValue.value
     elif configValue.type == gen_config.define.FieldType.string:
-        return string_utils.FormatSQuote(configValue.value)
+        return string_utils.FormatWithoutQuote(configValue.value)
